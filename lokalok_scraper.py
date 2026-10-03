@@ -15,14 +15,15 @@ from typing import List, Dict, Optional
 class LokLokStreamingScraper:
     """Scraper for LokLok streaming platform - films and series"""
     
-    BASE_URL = "https://lokal.com"
+    BASE_URL = "https://www.loklok.com"
     
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Referer': 'https://lokal.com/',
+            'Referer': 'https://www.loklok.com/',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, br',
         })
     
     def search_movies(self, query: str, max_results: int = 10) -> List[Dict]:
