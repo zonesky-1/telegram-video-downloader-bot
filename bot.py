@@ -19,7 +19,6 @@ from aiogram.types import (
     InlineKeyboardMarkup,
     Message,
     CallbackQuery,
-    OutputVideo,
 )
 from aiogram.filters import Command
 
