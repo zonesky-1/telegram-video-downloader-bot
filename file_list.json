@@ -1,0 +1,27 @@
+[
+  {
+    "name": "lokalok_scraper.py",
+    "path": "/home/agentuser/telegram_video_bot/lokalok_scraper.py",
+    "size": 8157
+  },
+  {
+    "name": "README.md",
+    "path": "/home/agentuser/telegram_video_bot/README.md",
+    "size": 3894
+  },
+  {
+    "name": "bot.py",
+    "path": "/home/agentuser/telegram_video_bot/bot.py",
+    "size": 9096
+  },
+  {
+    "name": "setup.sh",
+    "path": "/home/agentuser/telegram_video_bot/setup.sh",
+    "size": 800
+  },
+  {
+    "name": "requirements.txt",
+    "path": "/home/agentuser/telegram_video_bot/requirements.txt",
+    "size": 49
+  }
+]
